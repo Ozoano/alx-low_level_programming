@@ -1,22 +1,16 @@
 #include <stdio.h>
 
 /**
-*main - Entry point
-*This prints all single digit numbers of base 10 starting from 0.
-*return: 0 if  (Successful)
-*followed ny a new line
+* main - Entry point
+* This program prints every decimal digit
+* Return: 0 (Success)
 */
-
 int main(void)
 {
-int n;
+int i;
 
-for (n = 0; n < 10; n++)
-{
-printf("%d", n);
-print("\n");
-}
+for (i = 0; i <= 9; i++)
+printf("%d", i);
+putchar('\n');
 return (0);
 }
-
-
