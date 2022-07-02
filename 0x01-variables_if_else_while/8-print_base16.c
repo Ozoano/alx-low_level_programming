@@ -4,7 +4,7 @@
 * main -Entry points
 *This prints all numbers of base 16 in lowercase
 *followed by a new line
-* Return: 0 (Success)
+*return: 0 (Success)
 */
 int main(void)
 {
