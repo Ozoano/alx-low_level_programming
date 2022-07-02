@@ -3,10 +3,12 @@
 #include <stdio.h>
 
 /**
-*main - assigns a random number to the value of n everytime
-*it executes and print it
+*main -Entry point
+*This program checks if the value is stored in the variable
+*'n' is positive or negative
 *Return: 0 (Success)
-*/ 
+*/
+
 int main(void)
 {
 int n;
@@ -25,6 +27,5 @@ else
 {
 printf("%d is negative\n", n);
 }
-
 return (0);
 }
