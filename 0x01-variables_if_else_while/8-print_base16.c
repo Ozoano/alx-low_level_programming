@@ -1,25 +1,18 @@
 #include <stdio.h>
 
 /**
-* main -Entry points
-*This prints all numbers of base 16 in lowercase
-*followed by a new line
-*return 0 (Success)
+* main - Entry point
+* This program prints every hexadecimal character
+* Return: 0 (Success)
 */
 int main(void)
 {
-int n;
+int i;
 
-for (n = 48; n <= 57; n++)
-{
-putchar(n);
-}
-for (n = 'a'; n <= 'f'; n++)
-{
-putchar(n);
-}
-putchar(10);
+for (i = 48; i <= 57; i++)
+putchar(i);
+for (i = 97; i <= 102; i++)
+putchar(i);
+putchar('\n');
 return (0);
 }
-
-
