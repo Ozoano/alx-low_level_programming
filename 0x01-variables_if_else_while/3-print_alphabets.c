@@ -1,18 +1,18 @@
 #include <stdio.h>
 
 /**
-* main -This prints alphabets in lowercase and in uppercase
-return: 0 (Success)
+* main - Entry point
+* This program prints every letter of the alphabet
+* Return: 0 (Success)
 */
 int main(void)
 {
-int ch;
-for (ch = 'a'; ch <= 'z'; ch++)
-putchar(ch);
-for (ch = 'A'; ch <= 'Z'; ch++)
-putchar(ch);
-putchar(0);
+int i;
+
+for (i = 97; i <= 122; i++)
+putchar(i);
+for (i = 65; i < 91; i++)
+putchar(i);
+putchar('\n');
 return (0);
 }
-
-
