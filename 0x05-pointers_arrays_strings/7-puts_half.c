@@ -6,8 +6,8 @@
 */
 void puts_half(char *str)
 {
-int len; // index
-int counter; //half
+int len;
+int counter;
 for (len = 0; str[len] != '\0'; len++)
 {
   
