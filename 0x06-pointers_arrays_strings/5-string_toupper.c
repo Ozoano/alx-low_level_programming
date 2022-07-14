@@ -10,7 +10,7 @@ char *string_toupper(char *str)
 {
 int j = 'a' - 'A';
   
-for (int i - 0; str[i] != '\0'; i++)
+for (int i = 0; str[i] != '\0'; i++)
 {
 if (str[i] >= 'a' && str[i] <= 'z')
 str[i] -= j;
