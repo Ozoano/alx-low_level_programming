@@ -8,12 +8,13 @@
  */
 char *string_toupper(char *str)
 {
-int j = 'a' - 'A';
+int i = 0;
   
-for (int i = 0; str[i] != '\0'; i++)
+while ([i] != '\0')
 {
 if (str[i] >= 'a' && str[i] <= 'z')
-str[i] -= j;
+str[i] -= ('a' - 'A');
+i++;
 }
   
 return (str);
