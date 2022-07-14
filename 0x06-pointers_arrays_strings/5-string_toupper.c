@@ -8,7 +8,8 @@
  */
 char *string_toupper(char *str)
 {
-int i = 0, j = 'a' - 'A';
+int j = 'a' - 'A';
+int i = 0;
   
 while (str[i] != '\0')
 {
@@ -17,5 +18,5 @@ str[i] -= j;
 i++;
 }
   
- return (str);
+return (str);
 }
