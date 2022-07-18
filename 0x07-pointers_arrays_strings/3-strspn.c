@@ -23,7 +23,6 @@ length++;
 break;
 }
 }
-
 if (accept[j] == '\0')
 break;
 }
