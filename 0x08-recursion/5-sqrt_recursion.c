@@ -30,5 +30,5 @@ return (possible_root);
 if (square < n)
 return (get_sqrt(n, ++possible_root));
 
- return (-1);
+return (-1);
 }
