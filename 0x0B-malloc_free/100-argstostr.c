@@ -23,7 +23,7 @@ len++;
 }
 len += ac;
 
-p = (char *)malloc(len * sizeof(char) + 1);
+p = (char *)malloc(sizeof(char) * (len + 1));
 if (p == NULL)
 return (NULL);
 

@@ -31,10 +31,10 @@ len2++;
 }
 
 len = len1 + len2;
-p = (char *)malloc(len * sizeof(char) + 1);
+p = (char *)malloc(sizeof(char) * (len + 1));
 if (p == NULL)
 {
-return NULL;
+return (NULL);
 }
 
 for (i = 0; i < len1; i++)

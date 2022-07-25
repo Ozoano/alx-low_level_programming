@@ -34,7 +34,7 @@ i++;
 len += flag == 1 ? 1 : 0;
 if (len == 0)
 return (NULL);
-  
+
 words = (char **)malloc(sizeof(char *) * (len + 1));
 if (words == NULL)
 return (NULL);
@@ -70,9 +70,9 @@ flag = 0;
 }
 
 i++;
- }
+}
 
- if (flag == 1)
+if (flag == 1)
 create_word(words, str, start, i, j);
 }
 

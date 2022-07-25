@@ -14,20 +14,20 @@ char *_strdup(char *str)
 char *p;
 int n, i;
 
- if (p == NULL)
- {
- return (NULL);
- }
+if (p == NULL)
+{
+return (NULL);
+}
 
 for (n = 0; str[n] != '\0'; n++)
 
-p = (char *)malloc(n * sizeof(char) + 1);
+p = (char *)malloc(sizeof(char) * (n + 1));
 
 for (i = 0; i < n; i++)
 {
 p[i] = str[i];
 }
 p[n] = '\0';
-    
+
 return (p);
 }
