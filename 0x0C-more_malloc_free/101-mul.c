@@ -21,7 +21,6 @@ return (c >= '0' && c <= '9');
 int _strlen(char *s)
 {
 int i = 0;
-
 while (*s++)
 i++;
 return (i);
@@ -33,7 +32,7 @@ return (i);
 * @s2: the second big number string
 *
 * Return: the product big number string
-*/
+ */
 char *big_multiply(char *s1, char *s2)
 {
 char *r;
@@ -84,7 +83,7 @@ return (r);
 * @argv: the argument vector
 *
 * Return: Always 0 on success.
-*/
+ */
 int main(int argc, char **argv)
 {
 char *r;
