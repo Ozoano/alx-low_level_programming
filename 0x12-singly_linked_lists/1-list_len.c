@@ -8,10 +8,10 @@
  */
 size_t list_len(const list_t *h)
 {
-size_t elements;
+	size_t elements;
 
-for (elements = 0; h; h = h->next)
-elements++;
+	for (elements = 0; h; h = h->next)
+		elements++;
 
-return (elements);
+	return (elements);
 }
