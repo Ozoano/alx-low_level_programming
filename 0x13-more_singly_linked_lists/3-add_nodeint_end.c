@@ -4,7 +4,7 @@
  * @head: the head of a list
  * @n: number if elements
  *
- * Return:
+ * Return: a pointer to the start of list
  */
 
 listint_t *add_nodeint_end(listint_t **head, const int n)
