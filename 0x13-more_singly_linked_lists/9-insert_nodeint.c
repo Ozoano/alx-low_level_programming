@@ -29,7 +29,7 @@ newnode->next = (*head);
 (*head) = newnode;
 return (newnode);
 }
-else*/
+
 
 temp = (*head);
 
