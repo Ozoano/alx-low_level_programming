@@ -14,6 +14,10 @@ listint_t *prev = NULL;
 if (head == NULL || *head == NULL)
 return (NULL);
 
+if (head == NULL || *head == NULL)
+return (NULL);
+
+
 while ((*head)->next != NULL)
 {
 ahead = (*head)->next;
