@@ -20,12 +20,15 @@ if (new == NULL)
 	return (NULL);
 
 new->n = n;
-new->next = (*head);
+new->next = *head;
 new->prev = NULL;
+*head = new;
 
-if (*head != NULL)
-(*head)->next = new;
+if (new->next != NULL)
+{
+new->next = new;
+new->prev = new
+}
 
-(*head) = new;
 return (new);
 }
